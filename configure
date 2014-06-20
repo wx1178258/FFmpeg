@@ -274,7 +274,12 @@ Toolchain options:
   --target-samples=DIR     path to samples directory on target
   --tempprefix=PATH        force fixed dir/prefix instead of mktemp for checks
   --toolchain=NAME         set tool defaults according to NAME
+<<<<<<< HEAD
   --nm=NM                  use nm tool NM [$nm_default]
+=======
+  --pkg-config=PKGCONFIG   use pkg-config tool PKGCONFIG [$pkg_config_default]
+  --nm=NM                  use nm tool
+>>>>>>> parent of 852c329... configure: Drop duplicate pkg-config entry from help output
   --ar=AR                  use archive tool AR [$ar_default]
   --as=AS                  use assembler AS [$as_default]
   --windres=WINDRES        use windows resource compiler WINDRES [$windres_default]
@@ -282,8 +287,13 @@ Toolchain options:
   --cc=CC                  use C compiler CC [$cc_default]
   --cxx=CXX                use C compiler CXX [$cxx_default]
   --dep-cc=DEPCC           use dependency generator DEPCC [$cc_default]
+<<<<<<< HEAD
   --ld=LD                  use linker LD [$ld_default]
   --pkg-config=PKGCONFIG   use pkg-config tool PKGCONFIG [$pkg_config_default]
+=======
+  --ld=LD                  use linker LD
+  --pkg-config=PKGCONF     use pkg-config PKGCONF [$pkg_config_default]
+>>>>>>> parent of 852c329... configure: Drop duplicate pkg-config entry from help output
   --pkg-config-flags=FLAGS pass additional flags to pkgconf []
   --ranlib=RANLIB          use ranlib RANLIB [$ranlib_default]
   --host-cc=HOSTCC         use host C compiler HOSTCC
